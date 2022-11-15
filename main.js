@@ -32,19 +32,19 @@ function startBackgroundChangeInterval() {
 function getRandomColor() {
     const value = Math.random();
 
-    if(value < 0,2) {
+    if(value < 0.2) {
         return "lightgreen";
     }
 
-    else if(value < 0,4) {
+    else if(value < 0.4) {
         return "lightpink";
     }
 
-    else if (value < 0,6) {
+    else if (value < 0.6) {
         return "lavender";
     }
 
-    else if (value < 0,8) {
+    else if (value < 0.8) {
         return "lightyellow";
     }
 
